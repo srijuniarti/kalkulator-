@@ -1,0 +1,92 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(109, 102, 102);
+  }
+  #container {
+    width: 1000px;
+    height: 550px;
+    margin: 20px auto;
+  }
+  #calculator {
+    width: 350px;
+    height: 520px;
+    background-color: #3ce0fd;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px black (0, 0, 0, 0.19);
+  }
+  #result {
+    height: 120px;
+  }
+  #history {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: black;
+  }
+  #output {
+    text-align: right;
+    height: 60px;
+    margin: 15px 25px;
+    font-size: 30px;
+  }
+  #keyboard {
+    height: 450px;
+  }
+  .operator,
+  .number,
+  .empty {
+    width: 55px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .number,
+  .empty {
+    background-color: white;
+  }
+  .operator {
+    background-color: pink;
+  }
+  .number,
+  .operator {
+    cursor: pointer;
+  }
+  
+  .number:active,
+  .operator:active {
+    font-size: 15px;
+  }
+  .number:focus,
+  .operator:focus,
+  .empty:focus {
+    outline: 0;
+  }
+  button:nth-child(4) {
+    font-size: 20px;
+    background-color: pink;
+  }
+  button:nth-child(8) {
+    font-size: 20px;
+    background-color: pink;
+  }
+  button:nth-child(12) {
+    font-size: 20px;
+    background-color:pink;
+  }
+  button:nth-child(16) {
+    font-size: 20px;
+    background-color: pink;
+  }
+  button:nth-child(20) {
+    font-size: 20px;
+    background-color: pink;
+  }
+
+
